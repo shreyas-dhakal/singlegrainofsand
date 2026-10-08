@@ -23,7 +23,7 @@ export default function AboutPage() {
 
       <section className="mx-auto grid max-w-6xl gap-16 px-4 py-20 sm:px-8 sm:py-24 md:grid-cols-[5fr_7fr] md:gap-20">
         <div className="md:sticky md:top-32 md:self-start">
-          <div className="relative mx-auto aspect-[3/4] w-full max-w-md overflow-hidden rounded-t-full outline-1 outline-offset-8 outline-gold/60">
+          <div className="relative mx-auto aspect-[3/4] w-full max-w-md overflow-hidden rounded-2xl outline-1 outline-offset-8 outline-gold/60">
             <Image
               alt="Kelly Ingerson walking along the shoreline"
               className="object-cover"

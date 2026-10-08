@@ -43,7 +43,7 @@ export default function Home() {
             <div
               key={img.src}
               className={cn(
-                "relative overflow-hidden rounded-t-full outline-1 outline-offset-[5px] outline-gold/60 sm:outline-offset-8",
+                "relative overflow-hidden rounded-2xl outline-1 outline-offset-[5px] outline-gold/60 sm:outline-offset-8",
                 i === 1 ? "aspect-[3/4.3]" : "aspect-[3/4]"
               )}
             >
@@ -142,7 +142,7 @@ export default function Home() {
       {/* Meet the artist */}
       <section className="bg-card/60 border-y border-border/70">
         <div className="mx-auto grid max-w-6xl items-center gap-14 px-4 py-24 sm:px-8 sm:py-32 md:grid-cols-[5fr_6fr] md:gap-20">
-          <div className="relative mx-auto aspect-[3/4] w-full max-w-md overflow-hidden rounded-t-full outline-1 outline-offset-8 outline-gold/60">
+          <div className="relative mx-auto aspect-[3/4] w-full max-w-md overflow-hidden rounded-2xl outline-1 outline-offset-8 outline-gold/60">
             <Image
               alt="Kelly Ingerson walking along the shoreline"
               className="object-cover"
